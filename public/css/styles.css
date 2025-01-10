@@ -1,0 +1,109 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #444;
+}
+
+/* Style pour les tables */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Boutons */
+button, .btn {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Bouton Ajouter */
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+/* Bouton Modifier */
+.btn-warning {
+    background-color: #ffa500;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #e59400;
+}
+
+/* Bouton Supprimer */
+.btn-danger {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #da190b;
+}
+
+/* Formulaires */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 50%;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Ajouter un peu de marge autour du contenu */
+.container {
+    margin: 30px;
+}
